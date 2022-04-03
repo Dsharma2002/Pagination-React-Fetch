@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+.Pokemon-list {
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  max-width: 100vw;
+  align-items: center;
+}
+
+.pokemon {
+  padding: 15px;
+  margin: 20px;
+  background-color: rgb(103, 199, 167);
+  border-style: dashed;
+  width: 50%;
+}
+
+.btn {
+  padding: 15px;
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.prev-btn {
+  background: transparent;
+  font-size: 1.45rem;
+}
+
+.next-btn {
+  background: transparent;
+  font-size: 1.5rem;
+}
+
+.prev-btn:hover {
+  background-color: #d6acac;
+  color: black;
+}
+
+.next-btn:hover {
+  background-color: #c95047;
+}
+
+.page-num, .poke-page {
+  font-size: 1.2rem;
+}
