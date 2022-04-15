@@ -19,6 +19,7 @@ function App() {
   const getPokemons = async () => {
     const response = await fetch(currentPageURL)
     const data = await response.json()
+    console.log(data)
     setPokemons(data.results)
     setNextPageURL(data.next)
     setPrevPageURL(data.previous)

@@ -7,7 +7,7 @@ function PokemonList({ pokemons }) {
                 <div className="pokemon" key={p.name}>
                     {p.name}
                     <br />
-                    {p.url}
+                    <a href={p.url}>{p.url}</a>
                 </div>
             ))}
         </div>
